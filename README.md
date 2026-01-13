@@ -7,7 +7,7 @@
 
 ### 1. Introdução à Lógica de Programação
 
-Ao assistir as aulas iniciais, entendi que a lógica de programação é o ponto de partida para qualquer pessoa que deseja aprender a programar. O instrutor explicou que pensar logicamente é essencial para criar soluções eficientes e que, antes mesmo de aprender uma linguagem específica, é importante compreender como estruturar o raciocínio para resolver problemas.
+Ao assistir as aulas iniciais, entendi que a lógica de programação é o ponto de partida para qualquer pessoa que deseja aprender a programar. O instrutor (Filipão - DIO) explicou que pensar logicamente é essencial para criar soluções eficientes e que, antes mesmo de aprender uma linguagem específica, é importante compreender como estruturar o raciocínio para resolver problemas.
 
 ---
 
@@ -47,11 +47,45 @@ As aulas mostraram como arrays e objetos são fundamentais para lidar com coleç
 
 ---
 
-### 8. Introdução ao JSON: Estrutura, Leitura e Escrita
+### 8. 📄 JSON — JavaScript Object Notation
 
-Gostei de aprender sobre JSON, que é um formato muito usado para troca de dados entre sistemas. Vi como converter objetos JavaScript em JSON (`JSON.stringify()`) e o contrário (`JSON.parse()`), o que é muito útil para integrar aplicações e manipular dados de APIs.
+## 📌 O que é JSON?
+O **JSON** (*JavaScript Object Notation*) é um formato **baseado em texto** para representar dados estruturados.  
+Ele é amplamente utilizado para **troca de informações entre sistemas**, especialmente entre **cliente e servidor** em aplicações web e móveis.
 
 ---
+
+## 🔹 Características do JSON
+- **Leve** e de fácil leitura.
+- Baseado em **pares chave-valor**.
+- Suportado por praticamente todas as linguagens de programação.
+- Pode representar **objetos**, **arrays**, **números**, **strings**, **booleanos** e **valores nulos**.
+
+---
+
+## 📜 Estrutura Básica
+Um JSON é composto por:
+1. **Objetos** → delimitados por `{ }` e contendo pares `"chave": valor`.
+2. **Arrays** → listas ordenadas delimitadas por `[ ]`.
+3. **Valores** → podem ser `string`, `number`, `boolean`, `null`, `object` ou `array`.
+
+---
+
+## 💡 Exemplo de JSON
+```json
+{
+  "nome": "Maria",
+  "idade": 28,
+  "email": "maria@example.com",
+  "habilidades": ["JavaScript", "Python", "SQL"],
+  "ativo": true,
+  "endereco": {
+    "cidade": "São Paulo",
+    "estado": "SP"
+  }
+}
+
+````
 
 ### 9. Prática com Exercícios e Mini-Projetos
 
